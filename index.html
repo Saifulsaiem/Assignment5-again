@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Poribohon</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="pt-[20px] pr-2 lg:pl-20 lg:pr-20 lg:pt-[40px]">
+            <div class="navbar font-clr">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-4xl font-extrabold">P-Ticklet</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-sm font-bold">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end flex gap-5">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a
+                        class="btn bg-[#4dd75d46] text-green-500 border-green-600 border-solid w-31 h-10 lg:w-[120px] lg:h-[30px]">Get
+                        Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <section class=" banner pt-[20px] pr-2 lg:pl-20 lg:pr-20 lg:pt-[40px] ">
+            <div class="hero min-h-screen rounded-xl  "
+                style="background-image: url(images/banner.png);">
+                <div class="hero-overlay rounded-2xl bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="w-[100%]">
+                        <h1 class="mb-5 mt-auto text-6xl font-bold leading-relaxed">End-to-End Travel With <br> <span
+                                style="color: #29ef29;">P Paribahan</span></h1>
+                        <p class="mb-5 ml-14 mr-14 leading-relaxed">Convenience and Accessibility Buses are known for
+                            their extensive network of routes, offering accessibility to various destinations, both <br>
+                            within cities and across different regions.</p>
+                        <button onclick="scrollsection()" class="btn btn-primary bg-[#29ef29] text-black text-xl mt-3 mb-5">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="section1 pt-[20px] pr-2 lg:pl-20 lg:pr-20 lg:pt-[40px] text-center">
+            <div>
+                <h2 class="text-4xl font-extrabold mt-10 mb-7">Best offer for you</h2>
+                <div class="h-auto flex flex-col lg:flex-row ga p-5 gap-6 justify-around items-center mb-5">
+                    <div class="h-auto bg-yellow-500 flex gap-8 p-5 justify-around items-center rounded-xl">
+                        <div>
+                            <h1 class="text-3xl font-extrabold">15% OFF</h1>
+                            <h2 class="text-lg font-bold">on your next purchase</h2>
+                            <p>use by January 2024</p>
+                        </div>
+                        <div>=</div>
+                        <div>
+                            <h1 class="text-3xl font-bold">NEW15</h1>
+                            <p class="text-lg font-bold">(Coupon Code)</p>
+                        </div>
+                    </div>
+                    <div class="h-auto bg-pink-400 flex gap-8 p-5 justify-around items-center rounded-xl">
+                        <div>
+                            <h1 class="text-3xl font-extrabold">20% OFF</h1>
+                            <h2 class="text-lg font-bold">on your next purchase</h2>
+                            <p>use by January 2024</p>
+                        </div>
+                        <div>=</div>
+                        <div>
+                            <h1 class="text-3xl font-bold">Couple 20</h1>
+                            <p class="text-lg font-bold">(Coupon Code)</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div><button class="btn btn-outline text-[#13e313e9] font-bold h-4 w-50">See All Offer</button></div>
+            </div>
+        </section>
+        <hr class="hr2">
+       
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

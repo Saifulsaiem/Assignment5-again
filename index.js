@@ -114,3 +114,13 @@ btnn.addEventListener('click', function () {
 })
 
 
+  
+function gethidden(elementId){
+    document.getElementById(elementId).classList.add('hidden')
+}
+function getadd(elementId){
+    document.getElementById(elementId).classList.remove('hidden');
+}
+function SetInnerText(elementId,value){
+    document.getElementById(elementId).innerText=value;
+}

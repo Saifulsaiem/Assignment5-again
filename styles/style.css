@@ -15,3 +15,10 @@ hr{
 .btn1{
     width: 100px;
 }
+.end-page{
+    background-color: antiquewhite;
+    padding: 50px;
+    margin: 0 200px;
+    border-radius: 20px;
+    text-align: center;
+}
